@@ -29,5 +29,30 @@ body{
         @media (min-width: 930px) {.Avatar {width: clamp(130px, 14vw, 12rem);}}
         .TitlulPaginii{display: block; margin: 0; font-size: clamp(2rem, 6vw, 4rem);}
         @media (min-width: 500px) {.DescrierePrincipala{margin-bottom: 0.5em;}}
-        .Subtitlu{display: block; margin: 5px; color: red;}
+        .Subtitlu{display: block; margin: 20px; color: red;}
     
+.main-nav{
+    height: 15%;
+    display: flex;
+    text-align: right;
+    position: relative;
+    flex: 1;
+}
+
+.main-nav a{
+    padding: 6px 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-nav a:hover{
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #003;
+}
+
+

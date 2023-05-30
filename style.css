@@ -34,9 +34,10 @@ body{
 .main-nav{
     height: 15%;
     display: flex;
-    text-align: right;
+    text-align: center;
     position: relative;
-    flex: 1;
+    flex-direction: row;
+    align-items: center;
 }
 
 .main-nav a{
@@ -49,6 +50,7 @@ body{
     cursor: pointer;
     border: solid black;
     background-color: greenyellow;
+
 }
 
 .main-nav a:hover{
@@ -57,4 +59,10 @@ body{
     border: 2px solid #003;
 }
 
-
+footer{
+    background-color: black;
+    color: gray;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+}
